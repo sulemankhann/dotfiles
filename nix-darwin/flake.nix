@@ -43,6 +43,7 @@
           "tableplus"
           "github"
           "visual-studio-code"
+          "homerow"
         ];
         brews = [
           "nvm"
