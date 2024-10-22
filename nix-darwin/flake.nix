@@ -104,6 +104,7 @@
         ];
         finder.AppleShowAllExtensions = true;
         finder.FXPreferredViewStyle = "clmv";
+        screencapture.location = "~/Pictures/screenshots";
 
         NSGlobalDomain.AppleInterfaceStyle = "Dark";
         NSGlobalDomain.KeyRepeat = 2;
