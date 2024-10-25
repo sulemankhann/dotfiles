@@ -80,6 +80,7 @@ alias ydfhd="yt-dlp -f 137+140 "
 
 # export variables
 # for kittl mono repo
+export EDITOR=nvim
 export PKG_CONFIG_PATH="/usr/local/lib/pkgconfig:/opt/homebrew/lib/pkgconfig:$PKG_CONFIG_PATH"
 export NVM_DIR="$HOME/.nvm"
 # This loads nvm

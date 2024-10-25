@@ -24,6 +24,7 @@
     pkgs.lua
     pkgs.luarocks
 
+    pkgs.yazi
     pkgs.zoxide
     pkgs.fzf
     pkgs.starship
