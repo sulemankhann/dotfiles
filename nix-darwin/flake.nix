@@ -44,6 +44,7 @@
           "github"
           "visual-studio-code"
           "homerow"
+          "chatgpt"
         ];
         brews = [
           "nvm"
