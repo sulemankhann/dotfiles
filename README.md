@@ -16,17 +16,12 @@ To set up this dotfiles configuration, ensure you have the following:
    xcode-select --install
    ```
    
-2. **Install Nix and nix-darwin**  
+2. **Install Nix**  
   Follow these steps to install Nix and nix-darwin:
   - Install Nix:
   
     ```bash
-     <(curl -L https://nixos.org/nix/install
-    ```
-- Once Nix is installed, configure nix-darwin:
-  
-    ```bash
-     nix-env -iA nixpkgs.darwin-installer
+     sh <(curl -L https://nixos.org/nix/install)
     ```
 
 3. **Clone this Repository**  
@@ -42,5 +37,5 @@ To set up this dotfiles configuration, ensure you have the following:
   Apply the Nix configuration using nix-darwin:
 
    ```bash
-     darwin-rebuild switch --flake ~/dotfiles/nix-darwin
+     nix run nix-darwin --extra-experimental-features 'flakes nix-command'  -- switch --flake ~/dotfiles/nix-darwin
    ```
