@@ -13,6 +13,7 @@ lspconfig.servers = {
     "gopls",
     "pyright",
     "tailwindcss",
+    "intelephense",
 }
 
 -- list of servers configured with default config.
@@ -96,6 +97,20 @@ lspconfig.gopls.setup {
             completeUnimported = true,
             usePlaceholders = true,
             staticcheck = true,
+        },
+    },
+}
+
+lspconfig.intelephense.setup {
+    on_attach = on_attach,
+    on_init = on_init,
+    capabilities = capabilities,
+
+    settings = {
+        intelephense = {
+            environment = {
+                phpVersion = "7.4", -- Set PHP version if needed
+            },
         },
     },
 }

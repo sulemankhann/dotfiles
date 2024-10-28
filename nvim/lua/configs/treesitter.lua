@@ -27,6 +27,9 @@ local options = {
         "gowork",
 
         "python",
+
+        -- php
+        "php",
     },
 
     highlight = {

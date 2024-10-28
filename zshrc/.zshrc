@@ -76,6 +76,9 @@ alias gru="git remote set-url "
 alias yd="yt-dlp "
 alias ydfhd="yt-dlp -f 137+140 "
 
+#vapor
+alias vapor="./vendor/bin/vapor"
+
 
 
 # export variables
@@ -87,6 +90,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"
 # This loads nvm bash_completion
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
+export PATH="/Users/suleman/Library/Application Support/Herd/bin:$PATH"
 
 
 # Shell integrations

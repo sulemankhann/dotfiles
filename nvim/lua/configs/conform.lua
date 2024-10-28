@@ -26,6 +26,9 @@ local options = {
 
         -- nix
         nix = { "alejandra" },
+
+        -- PHP
+        -- php = { "pint" }, -- Add Pint for PHP files
     },
     formatters = {
 
