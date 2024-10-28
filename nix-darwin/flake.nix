@@ -45,10 +45,14 @@
           "visual-studio-code"
           "homerow"
           "chatgpt"
+          "herd"
+          "insomnia"
+          "caffeine"
         ];
         brews = [
           "nvm"
           "redis"
+          "mysql"
 
           # for kittl mono repo
           "pkg-config"
