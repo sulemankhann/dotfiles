@@ -90,7 +90,11 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"
 # This loads nvm bash_completion
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
+# Laravel Herd
+[[ -f "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh" ]] && builtin source "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh"
+# Herd injected PHP binary.
 export PATH="/Users/suleman/Library/Application Support/Herd/bin:$PATH"
+export PHP_INI_SCAN_DIR="/Users/suleman/Library/Application Support/Herd/config/php"
 
 
 # Shell integrations
