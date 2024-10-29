@@ -16,7 +16,7 @@ config.color_scheme = "Tokyo Night (Gogh)"
 config.font = wezterm.font_with_fallback({
 	"FiraCode Nerd Font", -- Primary font
 })
-config.font_size = 13
+config.font_size = 14
 
 -- config.background = {
 -- 	{
