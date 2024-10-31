@@ -95,6 +95,8 @@ export NVM_DIR="$HOME/.nvm"
 # Herd injected PHP binary.
 export PATH="/Users/suleman/Library/Application Support/Herd/bin:$PATH"
 export PHP_INI_SCAN_DIR="/Users/suleman/Library/Application Support/Herd/config/php"
+# include go package binary
+export PATH="/Users/suleman/go/bin:$PATH"
 
 
 # Shell integrations
