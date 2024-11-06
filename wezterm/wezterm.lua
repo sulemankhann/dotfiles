@@ -12,7 +12,7 @@ config.window_close_confirmation = "NeverPrompt"
 config.enable_tab_bar = false
 config.window_decorations = "RESIZE"
 
-config.color_scheme = "Tokyo Night (Gogh)"
+config.color_scheme = "Catppuccin Mocha (Gogh)"
 config.font = wezterm.font_with_fallback({
 	"FiraCode Nerd Font", -- Primary font
 })
